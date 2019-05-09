@@ -14,3 +14,10 @@ def assign_rooms(arr)
   end
   new_arr
 end
+
+def printer
+  batch_badge_creator
+  assign_rooms.each do |e|
+    puts e
+  end
+end
